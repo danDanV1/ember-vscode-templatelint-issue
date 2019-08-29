@@ -1,5 +1,12 @@
-{{!-- The following component displays Ember's default welcome message. --}}
+{{! The following component displays Ember's default welcome message. }}
 {{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+{{! Feel free to remove this! }}
 {{outlet}}
+{{! 
+
+Expect the following lint erros for the img tag below:
+img tags must have an alt attribute | ember-template-lint
+Self-closing a void element is redundant | ember-template-lint
+
+ }}
+<img />
